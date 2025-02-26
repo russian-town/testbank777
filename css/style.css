@@ -37,6 +37,23 @@ body {
           justify-content: center;
 }
 
+
+
+.image-text-container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  font-size: 16px;
+}
+
 .custom_heading-container h3 {
   text-transform: uppercase;
   font-weight: bold;
@@ -531,9 +548,9 @@ a:focus {
   padding: 12px 55px;
   outline: none;
   border: none;
-  border: 1px solid #ff4f5a;
+  border: none;
   color: #fff;
-  margin-top: 25px;
+  margin-top: 0px;
 }
 
 .contact_section button:hover {
